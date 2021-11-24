@@ -35,10 +35,11 @@ class User extends CI_Controller {
 			$crud->set_subject('Data User');
 			$crud->set_table('users');
 
-
 			$crud
-			->columns('first_name', 'last_name','jabatan', 'dapil', 'fraksi')
-			->fields('first_name', 'last_name', 'username' ,'email', 'phone', 'groups', 'active', 'alamat','agama','tempat_lahir','tanggal_lahir','fraksi','dapil','jabatan','riwayat')
+            
+			->columns('first_name', 'last_name')
+			->fields('first_name', 'last_name', 'username' ,'email', 'phone', 'groups', 'active', 'alamat','tempat_lahir','tanggal_lahir','riwayat')
+			// ->fields('first_name', 'last_name', 'username' ,'email', 'phone', 'groups', 'active', 'alamat','tempat_lahir','tanggal_lahir','fraksi','dapil','jabatan','riwayat')
 			->display_as('change_password', 'Ganti Password?')
 			->display_as('first_name', 'Nama Depan')
 			->display_as('last_name', 'Nama Belakang')
@@ -48,16 +49,13 @@ class User extends CI_Controller {
 			->display_as('active', 'Aktif')
 			->field_type('active','dropdown', array('1' => 'aktif', '0' => 'tidak aktif'))
             // ->set_field_upload('photo','assets/uploads/users')
-            ->set_relation('dapil','tb_dapil','nama_dapil')
-            ->set_relation('fraksi','tb_fraksi','nama_fraksi')
-            ->set_relation('jabatan','tb_jabatan','nama_jabatan')
             ->unset_read()
             // ->unset_clone()
 			->set_relation_n_n('groups', 'users_groups', 'groups','user_id','group_id','description');
             $crud->change_field_type('password', 'password');
-            $crud->add_action('Edit User', '', 'auth/edit_user', 'mdi mdi-account-edit');
+            $crud->add_action('Edit User', '', 'auth/edit_user', 'mdi mdi-account-edit')
+            ;
 			// $crud->callback_before_insert(array($this,'encrypt_password_callback'));
-
 			$output = $crud->render();
 			$this->load->view('data.php', $output);
 		}

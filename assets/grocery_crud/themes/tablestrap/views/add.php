@@ -67,7 +67,7 @@
                     </div>
                     <div class="form-group mb-0 justify-content-end row">
                         <div class="col-9">
-                            <button type="submit" class="btn btn-success waves-effect waves-light">Sign in</button>
+                            <button type="submit" class="btn btn-warning waves-effect waves-light">Sign in</button>
                         </div>
                     </div> -->
                     <?php } ?>
@@ -83,10 +83,10 @@
                     <?php if ($is_ajax) { ?><input type="hidden" name="is_ajax" value="true" /><?php }?>
 
                     <div class="card-footer">
-                        <!-- <input id="form-button-save" type='submit' value='<?php echo $this->l('form_save'); ?>' class='btn btn-success'/> -->
+                        <!-- <input id="form-button-save" type='submit' value='<?php echo $this->l('form_save'); ?>' class='btn btn-warning'/> -->
                         <?php if(!$this->unset_back_to_list) { ?>
-                            <!-- <input type='button' value='<?php echo $this->l('form_save_and_go_back'); ?>' class='btn btn-success' id="save-and-go-back-button"/> -->
-                            <button type="button" class="btn btn-success waves-effect waves-light" id="save-and-go-back-button">
+                            <!-- <input type='button' value='<?php echo $this->l('form_save_and_go_back'); ?>' class='btn btn-warning' id="save-and-go-back-button"/> -->
+                            <button type="button" class="btn btn-warning waves-effect waves-light" id="save-and-go-back-button">
                                 <span class="btn-label">
                                     <i class="mdi mdi-content-save"></i>
                                 </span>

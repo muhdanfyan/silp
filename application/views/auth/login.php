@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Login Sistem Informasi Rapat Kerja</title>
+        <title>Login Sistem Informasi Laporan Polisi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="<?= base_url('assets/images/logo-sm.png') ?>">
+        <link rel="shortcut icon" href="<?= base_url('assets/images/icon.jpg') ?>">
 
         <!-- App css -->
         <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css" />
@@ -54,7 +54,7 @@
                                             </div>
 
                                             <div class="form-group mb-0 text-center">
-                                                <button class="btn btn-success btn-block" type="submit"> Log In </button>
+                                                <button class="btn btn-warning btn-block" type="submit"> Log In </button>
                                             </div>
                                         <?php echo form_close();?>
                                     </div>
@@ -80,7 +80,7 @@
             2015 - 2019 &copy; UBold theme by <a href="" class="text-white-50">Coderthemes</a> 
         </footer> -->
         <?php
-            $this->load->view('themes/ubold/footer');
+            //$this->load->view('themes/ubold/footer');
         ?>
 
         <!-- Vendor js -->

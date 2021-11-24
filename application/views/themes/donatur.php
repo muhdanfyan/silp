@@ -39,8 +39,7 @@
 			/** -- to here -- */
 		?>
         <!-- App favicon -->
-        <link rel="shortcut icon" href="<?= base_url() ?>assets/images/logo-sm.png">
-
+        <link rel="shortcut icon" href="<?= base_url() ?>assets/images/icon.jpg">
         <!-- Plugins css -->
         <link href="<?= base_url() ?>assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css" />
         <!-- Lightbox css -->

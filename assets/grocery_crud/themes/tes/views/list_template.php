@@ -87,8 +87,8 @@
 
 
 			<?php if(!$unset_add){?>
-				<!-- <a role="button" class="add_button btn btn-success hidden-xs" href="<?php echo $add_url?>"> -->
-				<a role="button" class="add_button btn btn-success hidden-xs" href="<?php echo $add_url?>">
+				<!-- <a role="button" class="add_button btn btn-warning hidden-xs" href="<?php echo $add_url?>"> -->
+				<a role="button" class="add_button btn btn-warning hidden-xs" href="<?php echo $add_url?>">
                     <!-- <span class="glyphicon glyphicon-plus"></span> -->
                     <i class="fe-plus-square"></i>
 					<span class="ui-button-text"><?php echo $this->l('list_add'); ?> <?php echo $subject?></span>
@@ -97,7 +97,7 @@
 
 		<!-- <div class="pull-right"> -->
 			<div class="card-widgets text-white">
-				<!-- <a role="button" class="btn btn-success waves-effect waves-light mb-2 mr-1" href="<?= base_url() ?>"data-toggle="tooltip" title="Kembali">
+				<!-- <a role="button" class="btn btn-warning waves-effect waves-light mb-2 mr-1" href="<?= base_url() ?>"data-toggle="tooltip" title="Kembali">
 					<span class="glyphicon glyphicon-plus"></span> 
 					<i class="fe-corner-up-left"></i>
 				</a> -->
@@ -109,14 +109,14 @@
 					</a>
 				<?php }?>
 				<?php if(!$unset_export){?>
-					<a role="button" class="btn btn-success waves-effect waves-light mb-2 mr-1" href="<?php echo $export_url?>" data-toggle="tooltip" title="Export <?= $subject?>">
+					<a role="button" class="btn btn-warning waves-effect waves-light mb-2 mr-1" href="<?php echo $export_url?>" data-toggle="tooltip" title="Export <?= $subject?>">
                         <!-- <span class="glyphicon glyphicon-save-file"></span> -->
                         <i class="fe-save"></i>
 						<?php // echo $this->l('list_export');?>
 					</a>
 				<?php }?>
 				<?php if(!$unset_export){?>
-					<a role="button" class="btn btn-success waves-effect waves-light mb-2 mr-1 hidden-xs" href="<?php echo $print_url?>" data-toggle="tooltip" title="Print <?= $subject?>">
+					<a role="button" class="btn btn-warning waves-effect waves-light mb-2 mr-1 hidden-xs" href="<?php echo $print_url?>" data-toggle="tooltip" title="Print <?= $subject?>">
                         <!-- <span class="glyphicon glyphicon-print"></span> -->
                         <i class="fe-printer"></i>
 						<?php // echo $this->l('list_print');?>

@@ -20,7 +20,7 @@ body {
 }
 
 #topnav {
-    background: #70100a;
+    background: #010b26;
     position: fixed;
     left: 0;
     right: 0;
@@ -110,7 +110,7 @@ body {
 }
 
 #topnav .has-submenu.active .submenu li.active>a {
-    color: #70100a
+    color: #010b26
 }
 
 #topnav .topbar-menu {
@@ -174,7 +174,7 @@ body {
     }
     .navigation-menu>li>ul>li.has-submenu:active>a,
     .navigation-menu>li>ul>li.has-submenu:hover>a {
-        color: #70100a
+        color: #010b26
     }
     .navigation-menu>li .submenu {
         position: absolute;
@@ -223,7 +223,7 @@ body {
         color: #323a46
     }
     .navigation-menu>li .submenu li a:hover {
-        color: #70100a
+        color: #010b26
     }
     .navigation-menu>li .submenu li.has-submenu>a .arrow-down:after {
         right: 20px!important;
@@ -320,7 +320,7 @@ body {
         color: #323a46
     }
     #topnav .navigation-menu>li .submenu li a:hover {
-        color: #70100a
+        color: #010b26
     }
     #topnav .navigation-menu>li .submenu.open {
         display: block
@@ -337,13 +337,13 @@ body {
         padding-left: 0
     }
     #topnav .navigation-menu>li.has-submenu.open>a {
-        color: #70100a
+        color: #010b26
     }
     #topnav .has-submenu.active a {
-        color: #70100a
+        color: #010b26
     }
     #topnav .has-submenu.active .submenu li.active>a {
-        color: #70100a
+        color: #010b26
     }
     #topnav .arrow-down:after {
         right: 15px;
@@ -384,11 +384,11 @@ body {
 }
 
 .menubar-light #topnav .has-submenu.active>a {
-    color: #70100a
+    color: #010b26
 }
 
 .menubar-light #topnav .has-submenu.active .submenu li.active>a {
-    color: #70100a
+    color: #010b26
 }
 
 .menubar-light .navigation-menu>li>a {
@@ -422,7 +422,7 @@ body {
 }
 
 .gradient-topbar #topnav {
-    background: linear-gradient(135deg, #3396ad 0, #70100a 100%);
+    background: linear-gradient(135deg, #3396ad 0, #010b26 100%);
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
 }
@@ -841,7 +841,7 @@ body {
 }
 
 .right-bar .rightbar-title {
-    background-color: #70100a;
+    background-color: #010b26;
     padding: 27px 25px;
     color: #fff
 }
@@ -1286,8 +1286,8 @@ body {
 }
 
 .checkbox-primary input[type=checkbox]:checked+label::before {
-    background-color: #70100a;
-    border-color: #70100a
+    background-color: #010b26;
+    border-color: #010b26
 }
 
 .checkbox-primary input[type=checkbox]:checked+label::after {
@@ -1458,15 +1458,15 @@ body {
 }
 
 .radio-primary input[type=radio]+label::after {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .radio-primary input[type=radio]:checked+label::before {
-    border-color: #70100a
+    border-color: #010b26
 }
 
 .radio-primary input[type=radio]:checked+label::after {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .radio-secondary input[type=radio]+label::after {
@@ -1628,7 +1628,7 @@ body {
 }
 
 .ribbon-box .ribbon-primary {
-    background: #70100a
+    background: #010b26
 }
 
 .ribbon-box .ribbon-primary:before {
@@ -1756,7 +1756,7 @@ body {
 }
 
 .ribbon-box .ribbon-two-primary span {
-    background: #70100a
+    background: #010b26
 }
 
 .ribbon-box .ribbon-two-primary span:before {
@@ -1940,7 +1940,7 @@ body {
     border-top: 5px solid #dee2e6;
     border-right: 5px solid #dee2e6;
     border-bottom: 5px solid #dee2e6;
-    border-left: 5px solid #70100a;
+    border-left: 5px solid #010b26;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-animation: SpinnerAnimation 1.1s infinite linear;
@@ -1993,7 +1993,7 @@ body.authentication-bg {
 
 body.authentication-bg-pattern {
     background-image: url(../images/bg-pattern.png);
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .logout-icon {
@@ -2048,7 +2048,7 @@ body.authentication-bg-pattern {
 
 .icons-list-demo .col-md-4:hover,
 .icons-list-demo .col-md-4:hover i {
-    color: #70100a
+    color: #010b26
 }
 
 .scrollspy-example {
@@ -2059,7 +2059,7 @@ body.authentication-bg-pattern {
 }
 
 .text-error {
-    color: #70100a;
+    color: #010b26;
     text-shadow: rgba(126, 87, 194, .3) 5px 1px, rgba(126, 87, 194, .2) 10px 3px;
     font-size: 84px;
     line-height: 90px;
@@ -2095,7 +2095,7 @@ body.authentication-bg-pattern {
 }
 
 .error-text-box .text:nth-child(5n+3) {
-    stroke: #70100a;
+    stroke: #010b26;
     -webkit-animation-delay: -3.6s;
     animation-delay: -3.6s
 }
@@ -2214,7 +2214,7 @@ body.authentication-bg-pattern {
 .faq-question-q-box {
     height: 30px;
     width: 30px;
-    color: #70100a;
+    color: #010b26;
     text-align: center;
     border-radius: 50%;
     float: left;
@@ -2443,7 +2443,7 @@ body.authentication-bg-pattern {
     height: 12px;
     border-radius: 50%;
     background: #fff;
-    border: 2px solid #70100a
+    border: 2px solid #010b26
 }
 
 .timeline-sm .timeline-sm-item .timeline-sm-date {
@@ -2704,7 +2704,7 @@ body.authentication-bg-pattern {
 }
 
 .sitemap li a:hover {
-    color: #70100a
+    color: #010b26
 }
 
 .sitemap ul {
@@ -2791,7 +2791,7 @@ body.authentication-bg-pattern {
 }
 
 .card-pricing-recommended {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff
 }
 
@@ -2821,12 +2821,12 @@ body.authentication-bg-pattern {
 }
 
 .filter-menu a:hover {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff
 }
 
 .filter-menu a.active {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff
 }
 
@@ -2892,7 +2892,7 @@ body.authentication-bg-pattern {
 .rocket-clouds__cloud,
 .rocket-inner__rocket-and-lines,
 .rocket-rocket {
-    fill: #70100a
+    fill: #010b26
 }
 
 .post-user-comment-box {
@@ -3135,7 +3135,7 @@ body.authentication-bg-pattern {
 .irs--modern .irs-from,
 .irs--modern .irs-single,
 .irs--modern .irs-to {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .irs--flat .irs-handle.state_hover>i:first-child,
@@ -3153,7 +3153,7 @@ body.authentication-bg-pattern {
 .irs--modern .irs-from:before,
 .irs--modern .irs-single:before,
 .irs--modern .irs-to:before {
-    border-top-color: #70100a
+    border-top-color: #010b26
 }
 
 .irs--modern .irs-line {
@@ -3161,9 +3161,9 @@ body.authentication-bg-pattern {
 }
 
 .irs--modern .irs-bar {
-    background: #70100a;
-    background: -webkit-gradient(linear, left top, left bottom, from(#70100a), to(#643da9));
-    background: linear-gradient(to bottom, #70100a 0, #643da9 100%)
+    background: #010b26;
+    background: -webkit-gradient(linear, left top, left bottom, from(#010b26), to(#643da9));
+    background: linear-gradient(to bottom, #010b26 0, #643da9 100%)
 }
 
 .irs--sharp .irs-bar,
@@ -3173,7 +3173,7 @@ body.authentication-bg-pattern {
 .irs--sharp .irs-min,
 .irs--sharp .irs-single,
 .irs--sharp .irs-to {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .irs--sharp .irs-line {
@@ -3184,7 +3184,7 @@ body.authentication-bg-pattern {
 .irs--sharp .irs-handle>i:first-child,
 .irs--sharp .irs-single:before,
 .irs--sharp .irs-to:before {
-    border-top-color: #70100a
+    border-top-color: #010b26
 }
 
 .irs--sharp .irs-handle.state_hover,
@@ -3201,18 +3201,18 @@ body.authentication-bg-pattern {
 .irs--round .irs-from,
 .irs--round .irs-single,
 .irs--round .irs-to {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .irs--round .irs-bar:before,
 .irs--round .irs-from:before,
 .irs--round .irs-single:before,
 .irs--round .irs-to:before {
-    border-top-color: #70100a
+    border-top-color: #010b26
 }
 
 .irs--round .irs-handle {
-    border: 4px solid #70100a;
+    border: 4px solid #010b26;
     -webkit-box-shadow: 0 1px 3px rgba(126, 87, 194, .3);
     box-shadow: 0 1px 3px rgba(126, 87, 194, .3)
 }
@@ -3333,7 +3333,7 @@ body.authentication-bg-pattern {
 .fc-state-active,
 .fc-state-disabled,
 .fc-state-down {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff;
     text-shadow: none
 }
@@ -3427,12 +3427,12 @@ table.dataTable {
 
 table.dataTable tbody>tr.selected,
 table.dataTable tbody>tr>.selected {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 table.dataTable tbody>tr.selected td,
 table.dataTable tbody>tr>.selected td {
-    border-color: #70100a
+    border-color: #010b26
 }
 
 table.dataTable tbody td:focus {
@@ -3441,9 +3441,9 @@ table.dataTable tbody td:focus {
 
 table.dataTable tbody td.focus,
 table.dataTable tbody th.focus {
-    outline: 2px solid #70100a!important;
+    outline: 2px solid #010b26!important;
     outline-offset: -1px;
-    color: #70100a;
+    color: #010b26;
     background-color: rgba(126, 87, 194, .15)
 }
 
@@ -3466,7 +3466,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
 }
 
 div.dt-button-info {
-    background-color: #70100a;
+    background-color: #010b26;
     border: none;
     color: #fff;
     -webkit-box-shadow: none;
@@ -3513,7 +3513,7 @@ div.dt-button-info h2 {
 .daterangepicker .ranges li.active,
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .datepicker {
@@ -3571,7 +3571,7 @@ div.dt-button-info h2 {
 .datepicker table tr td.today.disabled,
 .datepicker table tr td.today.disabled:hover,
 .datepicker table tr td.today:hover {
-    background-color: #70100a!important;
+    background-color: #010b26!important;
     background-image: none!important;
     color: #fff
 }
@@ -3671,7 +3671,7 @@ div.dt-button-info h2 {
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .select2-container--default .select2-results__option[aria-selected=true] {
@@ -3680,7 +3680,7 @@ div.dt-button-info h2 {
 }
 
 .select2-container--default .select2-results__option[aria-selected=true]:hover {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff
 }
 
@@ -3698,7 +3698,7 @@ div.dt-button-info h2 {
 }
 
 .select2-container .select2-selection--multiple .select2-selection__choice {
-    background-color: #70100a;
+    background-color: #010b26;
     border: none;
     color: #fff;
     border-radius: 3px;
@@ -3722,7 +3722,7 @@ div.dt-button-info h2 {
 .jq-toast-single {
     padding: 15px;
     font-family: Poppins, sans-serif;
-    background-color: #70100a;
+    background-color: #010b26;
     font-size: 13px;
     line-height: 22px
 }
@@ -3764,9 +3764,9 @@ div.dt-button-info h2 {
 }
 
 .jq-icon-primary {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff;
-    border-color: #70100a
+    border-color: #010b26
 }
 
 .jq-icon-secondary {
@@ -3857,7 +3857,7 @@ div.dt-button-info h2 {
 }
 
 .swal2-modal .swal2-confirm.btn-confirm {
-    background-color: #70100a!important;
+    background-color: #010b26!important;
     font-size: .8125rem
 }
 
@@ -3872,8 +3872,8 @@ div.dt-button-info h2 {
 }
 
 .swal2-icon.swal2-question {
-    color: #70100a;
-    border-color: #70100a
+    color: #010b26;
+    border-color: #010b26
 }
 
 .swal2-icon.swal2-success {
@@ -3908,7 +3908,7 @@ div.dt-button-info h2 {
 .swal2-modal .swal2-input:focus,
 .swal2-modal .swal2-textarea:focus {
     outline: 0;
-    border: 2px solid #70100a
+    border: 2px solid #010b26
 }
 
 .swal2-container.swal2-shown {
@@ -3961,9 +3961,9 @@ div.dt-button-info h2 {
 }
 
 .gradient-theme .tippy-backdrop {
-    background: #70100a;
-    background: -webkit-gradient(linear, right top, left top, from(#f1556c), to(#70100a));
-    background: linear-gradient(to left, #f1556c, #70100a)
+    background: #010b26;
+    background: -webkit-gradient(linear, right top, left top, from(#f1556c), to(#010b26));
+    background: linear-gradient(to left, #f1556c, #010b26)
 }
 
 .tippy-popper[x-placement^=top] .tippy-tooltip.light-theme .tippy-arrow {
@@ -4000,7 +4000,7 @@ div.dt-button-info h2 {
 }
 
 .dd-list .dd-item .dd-handle:hover {
-    color: #70100a
+    color: #010b26
 }
 
 .dd-list .dd-item button {
@@ -4035,7 +4035,7 @@ div.dt-button-info h2 {
 }
 
 .dd-list .dd3-content:hover {
-    color: #70100a
+    color: #010b26
 }
 
 .dd-list .dd3-handle:before {
@@ -4055,15 +4055,15 @@ div.dt-button-info h2 {
 }
 
 div.hopscotch-bubble {
-    border: 3px solid #70100a;
+    border: 3px solid #010b26;
     border-radius: 5px
 }
 
 div.hopscotch-bubble .hopscotch-next,
 div.hopscotch-bubble .hopscotch-prev {
-    background-color: #70100a!important;
+    background-color: #010b26!important;
     background-image: none!important;
-    border-color: #70100a!important;
+    border-color: #010b26!important;
     text-shadow: none!important;
     margin: 0 0 0 5px!important;
     font-family: Poppins, sans-serif;
@@ -4077,7 +4077,7 @@ div.hopscotch-bubble .hopscotch-bubble-number {
 }
 
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.left .hopscotch-bubble-arrow-border {
-    border-right: 19px solid #70100a
+    border-right: 19px solid #010b26
 }
 
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.left .hopscotch-bubble-arrow {
@@ -4085,16 +4085,16 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.left .hopscotch-bubble-ar
 }
 
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.right .hopscotch-bubble-arrow {
-    border-left: 19px solid #70100a;
+    border-left: 19px solid #010b26;
     left: -2px
 }
 
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.right .hopscotch-bubble-arrow-border {
-    border-left: 0 solid #70100a
+    border-left: 0 solid #010b26
 }
 
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.up .hopscotch-bubble-arrow {
-    border-bottom: 19px solid #70100a;
+    border-bottom: 19px solid #010b26;
     top: 0
 }
 
@@ -4103,7 +4103,7 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.up .hopscotch-bubble-arro
 }
 
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-arrow {
-    border-top: 19px solid #70100a;
+    border-top: 19px solid #010b26;
     top: -2px
 }
 
@@ -4216,7 +4216,7 @@ div.hopscotch-bubble .hopscotch-content {
 .ct-chart .ct-series.ct-series-a .ct-line,
 .ct-chart .ct-series.ct-series-a .ct-point,
 .ct-chart .ct-series.ct-series-a .ct-slice-donut {
-    stroke: #70100a
+    stroke: #010b26
 }
 
 .ct-chart .ct-series.ct-series-b .ct-bar,
@@ -4263,7 +4263,7 @@ div.hopscotch-bubble .hopscotch-content {
 
 .ct-series-a .ct-area,
 .ct-series-a .ct-slice-pie {
-    fill: #70100a
+    fill: #010b26
 }
 
 .ct-series-b .ct-area,
@@ -4471,19 +4471,19 @@ div.hopscotch-bubble .hopscotch-content {
 
 .responsive-table-plugin .checkbox-row input[type=checkbox]:checked+label::before {
     background-color: #fff;
-    border-color: #70100a
+    border-color: #010b26
 }
 
 .responsive-table-plugin .checkbox-row input[type=checkbox]:checked+label::after {
-    color: #70100a
+    color: #010b26
 }
 
 .responsive-table-plugin .sticky-table-header,
 .responsive-table-plugin table.focus-on tbody tr.focused td,
 .responsive-table-plugin table.focus-on tbody tr.focused th {
-    background: #70100a;
+    background: #010b26;
     color: #fff;
-    border-color: #70100a
+    border-color: #010b26
 }
 
 .responsive-table-plugin .sticky-table-header table,
@@ -4503,8 +4503,8 @@ div.hopscotch-bubble .hopscotch-content {
 }
 
 .responsive-table-plugin .btn-default.btn-primary {
-    background-color: #70100a;
-    border-color: #70100a;
+    background-color: #010b26;
+    border-color: #010b26;
     color: #fff;
     -webkit-box-shadow: 0 0 0 2px rgba(126, 87, 194, .5);
     box-shadow: 0 0 0 2px rgba(126, 87, 194, .5)
@@ -4567,8 +4567,8 @@ div.hopscotch-bubble .hopscotch-content {
 
 .footable-pagination li.active a {
     color: #fff;
-    background-color: #70100a;
-    border-color: #70100a
+    background-color: #010b26;
+    border-color: #010b26
 }
 
 .footable>thead>tr>th>span.footable-sort-indicator {
@@ -4706,7 +4706,7 @@ table[data-toggle=table] {
 .tablesaw-enhanced .tablesaw-bar .btn:active,
 .tablesaw-enhanced .tablesaw-bar .btn:focus,
 .tablesaw-enhanced .tablesaw-bar .btn:hover {
-    color: #70100a!important;
+    color: #010b26!important;
     background-color: #f1f5f7;
     outline: 0!important;
     -webkit-box-shadow: none!important;
@@ -4780,7 +4780,7 @@ table[data-toggle=table] {
 }
 
 .jsgrid-pager-page.jsgrid-pager-current-page {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff
 }
 
@@ -4802,7 +4802,7 @@ table[data-toggle=table] {
 }
 
 .jsgrid-pager-nav-button a:hover {
-    color: #70100a
+    color: #010b26
 }
 
 .jsgrid .jsgrid-button {
@@ -4855,7 +4855,7 @@ table[data-toggle=table] {
 }
 
 .ms-container .ms-selectable li.ms-hover {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .ms-container .ms-selection li.ms-elem-selection {
@@ -4864,7 +4864,7 @@ table[data-toggle=table] {
 }
 
 .ms-container .ms-selection li.ms-hover {
-    background-color: #70100a
+    background-color: #010b26
 }
 
 .ms-selectable {
@@ -5000,15 +5000,15 @@ table[data-toggle=table] {
 .flatpickr-day.startRange.prevMonthDay,
 .flatpickr-day.startRange:focus,
 .flatpickr-day.startRange:hover {
-    background: #70100a;
-    border-color: #70100a
+    background: #010b26;
+    border-color: #010b26
 }
 
 .flatpickr-day.endRange.startRange+.endRange:not(:nth-child(7n+1)),
 .flatpickr-day.selected.startRange+.endRange:not(:nth-child(7n+1)),
 .flatpickr-day.startRange.startRange+.endRange:not(:nth-child(7n+1)) {
-    -webkit-box-shadow: -10px 0 0 #70100a;
-    box-shadow: -10px 0 0 #70100a
+    -webkit-box-shadow: -10px 0 0 #010b26;
+    box-shadow: -10px 0 0 #010b26
 }
 
 .flatpickr-time .flatpickr-am-pm:focus,
@@ -5023,7 +5023,7 @@ table[data-toggle=table] {
 }
 
 .clockpicker-popover .btn-default {
-    background-color: #70100a;
+    background-color: #010b26;
     color: #fff
 }
 
@@ -5188,7 +5188,7 @@ table[data-toggle=table] {
     color: #fff;
     font-size: 16px;
     line-height: 40px;
-    background: #70100a;
+    background: #010b26;
     border-radius: 4px;
     padding: 10px 20px
 }
@@ -5205,14 +5205,14 @@ table[data-toggle=table] {
     bottom: -15px;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
-    border-top: 16px solid #70100a
+    border-top: 16px solid #010b26
 }
 
 .gmaps-overlay_arrow.below {
     top: -15px;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
-    border-bottom: 16px solid #70100a
+    border-bottom: 16px solid #010b26
 }
 
 .jvectormap-label {
@@ -5237,7 +5237,7 @@ table[data-toggle=table] {
 
 .mapael .mapTooltip {
     position: absolute;
-    background-color: #70100a;
+    background-color: #010b26;
     opacity: .95;
     border-radius: 3px;
     padding: 2px 10px;
@@ -5257,7 +5257,7 @@ table[data-toggle=table] {
     border-radius: 2px;
     font-weight: 500;
     cursor: pointer;
-    background-color: #70100a;
+    background-color: #010b26;
     text-decoration: none;
     color: #fff;
     font-size: 14px;
@@ -7553,7 +7553,7 @@ ul {
 }
 
 .text-primary {
-    color: #70100a!important
+    color: #010b26!important
 }
 
 a.text-primary:focus,

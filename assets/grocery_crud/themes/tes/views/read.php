@@ -81,7 +81,7 @@
                 <?php } ?>
         </ul>
         <div class="card-footer">
-            <a href="<?php echo $list_url?>" class="btn btn-success">
+            <a href="<?php echo $list_url?>" class="btn btn-warning">
                 <?php echo $this->l('form_back_to_list'); ?>
             </a>
         </div>

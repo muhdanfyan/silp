@@ -5,9 +5,7 @@ class Vote extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-
 		$this->load->helper('url');
-
 		$this->_init();
 	}
 
@@ -71,7 +69,6 @@ class Vote extends CI_Controller {
             $crud->unset_add();
             $crud->unset_edit();
             $crud->unset_delete();
-
             // simpan hasilnya kedalam variabel output
             $output = $crud->render();
             // tampilkan di view 

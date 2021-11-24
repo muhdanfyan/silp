@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Sistem Informasi Rapat Kerja | DPRD Sulteng</title>
+        <title>Sisfo Laporan Polisi - Polres Bone</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -38,8 +38,7 @@
 			/** -- to here -- */
 		?>
         <!-- App favicon -->
-        <link rel="shortcut icon" href="<?= base_url() ?>assets/images/logo-sm.png">
-
+        <link rel="shortcut icon" href="<?= base_url() ?>assets/images/icon.jpg">
         <!-- Plugins css -->
         <link href="<?= base_url() ?>assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css" />
 

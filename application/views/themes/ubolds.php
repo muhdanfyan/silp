@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Sistem Informasi Rapat Kerja | DPRD Sulteng</title>
+        <title>Sisfo Laporan Polisi - Polres Bone</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -39,7 +39,10 @@
 		?>
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="<?= base_url() ?>assets/images/logo-sm.png">
+        <link rel="shortcut icon" href="<?= base_url() ?>assets/images/icon.jpg">
+        <!-- third party css -->
+        <!-- <link href="<?= base_url() ?>assets/libs/datatables/dataTables.bootstrap4.css" rel="stylesheet" type="text/css" />
+        <link href="<?= base_url() ?>assets/libs/datatables/responsive.bootstrap4.css" rel="stylesheet" type="text/css" /> -->
 
         <!-- Plugins css -->
         <link href="<?= base_url() ?>assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css" />
@@ -115,6 +118,15 @@
 
         <!-- Vendor js -->
         <script src="<?= base_url() ?>assets/js/vendor.min.js"></script>
+
+        <!-- third party js -->
+        <script src="<?= base_url() ?>assets/libs/datatables/jquery.dataTables.min.js"></script>
+        <script src="<?= base_url() ?>assets/libs/datatables/dataTables.bootstrap4.js"></script>
+        <script src="<?= base_url() ?>assets/libs/datatables/dataTables.responsive.min.js"></script>
+        <script src="<?= base_url() ?>assets/libs/datatables/responsive.bootstrap4.min.js"></script>
+        
+        <!-- Chart JS -->
+        <script src="assets/libs/chart-js/Chart.bundle.min.js"></script>
 
         <!-- Plugins js-->
         <script src="<?= base_url() ?>assets/libs/flatpickr/flatpickr.min.js"></script>
