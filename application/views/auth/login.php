@@ -38,12 +38,12 @@
 
                                             <div class="form-group mb-3">
                                                 <label for="emailaddress">Email address</label>
-                                                <input name="identity" value="" id="identity" class="form-control" type="email" required="" placeholder="Enter your email">
+                                                <input name="identity" value="" id="identity" class="form-control" type="email" required="" placeholder="Masukkan Email Anda">
                                             </div>
 
                                             <div class="form-group mb-3">
                                                 <label for="password">Password</label>
-                                                <input class="form-control" type="password" name="password" required="" id="password" placeholder="Enter your password">
+                                                <input class="form-control" type="password" name="password" required="" id="password" placeholder="Masukkan Password Anda">
                                             </div>
 
                                             <div class="form-group mb-3">
